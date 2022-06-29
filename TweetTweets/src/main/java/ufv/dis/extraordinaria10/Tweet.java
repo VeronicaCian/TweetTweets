@@ -37,4 +37,14 @@ public class Tweet {
     public void setFecha(String fecha) {
         this.fecha = fecha;
     }
+
+    @Override
+    public String toString() {
+        return "Tweet{" +
+                "nombre='" + nombre + '\'' +
+                ", mensaje='" + mensaje + '\'' +
+                ", fecha='" + fecha + '\'' +
+                '}';
+    }
+
 }
